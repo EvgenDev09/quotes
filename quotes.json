@@ -397,34 +397,29 @@
             "date": "17.10.2024"
         }
     ],
-    "authors": [
-        {
-            "author": "le",
+    "authors": {
+        "le": {
             "name": "Леонид Иванович",
             "icon": "le"
         },
-        {
-            "author": "sergey",
+        "sergey": {
             "name": "Сергей Числов",
             "icon": "sergey"
         },
-        {
-            "author": "kanava",
+        "kanava": {
             "name": "Коновалова Анастасия",
             "icon": "kanava"
         },
-        {
-            "author": "jaman",
+        "jaman": {
             "name": "Лабусов Ян-Павел",
             "icon": "jaman"
         }
-    ],
-    "groups": [
-        {
-            "group": "fan",
+    },
+    "groups": {
+        "fan": {
             "name": "Фан-каналы",
             "icon": "fan",
             "link": null
         }
-    ]
+    }
 }
