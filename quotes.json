@@ -401,22 +401,22 @@
         {
             "author": "le",
             "name": "Леонид Иванович",
-            "icon": ""
+            "icon": "le"
         },
         {
             "author": "sergey",
             "name": "Сергей Числов",
-            "icon": ""
+            "icon": "sergey"
         },
         {
             "author": "kanava",
             "name": "Коновалова Анастасия",
-            "icon": ""
+            "icon": "kanava"
         },
         {
             "author": "jaman",
             "name": "Лабусов Ян-Павел",
-            "icon": ""
+            "icon": "jaman"
         }
     ],
     "groups": [
