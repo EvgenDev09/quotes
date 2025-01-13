@@ -165,15 +165,18 @@ h1, p {
 
 .modal-fg h1 {
     font-size: 30px;
+    color: black;
 }
 
 .modal-fg p {
     font-size: 14px;
+    color: black;
 }
 
 .modal-fg button {
     padding: 5px;
     font-size: 20px;
+    color: white;
 }
 
 /*
