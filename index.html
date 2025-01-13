@@ -9,6 +9,15 @@
 <body>
     <div id="container">
         <h1 id="name">Цитаты</h1>
+        <div class="modal-bg" id="modal">
+            <div class="modal-fg">
+                <h1>ДИСКЛЕЙМЕР</h1>
+                <p>
+                    Данное приложение несёт исключительно юмористический характер, оно создано в развлекательных целях. Приложение не преследует цели кого-либо оскорбить или унизить. Мы не поддерживаем ЛГБТ, расизм, нацизм и т. п.
+                </p>
+                <button type="button" onclick="closeDisclaimer()">Закрыть</button>
+            </div>
+        </div>
         <!--<div id="groups" class="dropdown">
             <div>
                 <p>Группы</p>
@@ -21,6 +30,7 @@
             </div>
         </div>-->
         <div id="quotes">
+            <button type="button" onclick="showDisclaimer()" id="disclaimer-button">ДИСКЛЕЙМЕР</button>
         </div>
     </div>
     <div class="usercard" id="usercard"></div>

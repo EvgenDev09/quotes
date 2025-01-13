@@ -41,11 +41,11 @@ h1, p {
 
 #name {
     text-align: center;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 #quotes {
-    padding: 10px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -54,7 +54,7 @@ h1, p {
 .quote {
     background-color: var(--tg-theme-button-color);
     color: var(--tg-theme-button-text-color);
-    padding: 10px;
+    padding: 5px;
     border: var(--tg-theme-text-color) 2px solid;
     border-radius: 20px;
     display: flex;
@@ -76,20 +76,20 @@ h1, p {
 }
 
 .quote-number {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
 }
 
 .quote-group {
-    font-size: 12px;
+    font-size: 11px;
     align-items: center;
     display: flex;
     gap: 5px;
 }
 
 .quote-group-icon {
-    height: 15px;
-    width: 15px;
+    height: 14px;
+    width: 14px;
 }
 
 .quote-group-name {
@@ -97,12 +97,19 @@ h1, p {
 }
 
 .quote-quote {
-    font-size: 16px;
+    font-size: 15px;
     font-style: italic;
 }
 
+.quote-author {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+}
+
 .quote-author-name {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .quote-author-icon {
@@ -113,6 +120,60 @@ h1, p {
 
 .usercard {
     text-align: center;
+}
+
+#disclaimer-button {
+    text-align: center;
+    margin: 20px;
+    background-color: var(--tg-theme-button-color);
+    color: var(--tg-theme-button-text-color);
+    padding: 5px;
+    border: var(--tg-theme-text-color) 2px solid;
+    border-radius: 20px;
+}
+
+.modal-bg {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    max-width: 390px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-bg.show {
+    display: flex;
+}
+
+.modal-fg {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    color: var(--tg-theme-button-text-color);
+    border: var(--tg-theme-text-color) 2px solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.modal-fg h1 {
+    font-size: 30px;
+}
+
+.modal-fg p {
+    font-size: 14px;
+}
+
+.modal-fg button {
+    padding: 5px;
+    font-size: 20px;
 }
 
 /*
